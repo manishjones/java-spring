@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean name ="scout" class="repo.Scouter"  />
+	<bean name="martial" class="java.lang.package">
+	
+		
+		
+		
+		
+	</bean>
+
+
+	<bean  name="sup" class="service.ServiceImpl" autowire="byType">
+	<!-- 	<property name="scout" ref="repo" />
+	<constructor-arg index="0" ref="repo"/>
+	<constructor-arg index="1" ref="repo"/>
+	-->
+	</bean>
+
+</beans>
